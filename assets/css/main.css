@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
-    border: 1px solid pink;
+    /*border: 1px solid pink;*/
 }
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgb(241, 239, 239);
     color: #222;
     font-size: 16px;
     line-height: 1.4;
@@ -16,13 +17,27 @@ HEADER
 */
 
 .header{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
 
 }
 
 .header .title{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 5px;
 
 }
 .header .title .title_icon{
+    width: 100%;
+    margin-bottom: 5px;
+   
 
 }
 .header .title .title_text{
@@ -30,6 +45,9 @@ HEADER
 }
 
 .header .menu{
+    display: flex;
+    align-items: flex-end;
+    
 
 }
 .header .menu .menu_icon{
@@ -44,9 +62,12 @@ CHAT
 */
 
 .chat{
+    display: flex;
+    flex-wrap: nowrap;
 
 }
 .chat .chat_list{
+    width: 30%;
     
 }
 
@@ -54,21 +75,35 @@ CHAT
     
 }
 .chat .chat_conversation{
+    width: 70%;
 
 }
 .chat .chat_conversation .chat_textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    
 
 }
 .chat .chat_conversation .chat_textarea .text_blank_space{
+    background-color: white;
+    height: 80px;
 
 }
 .chat .chat_conversation .chat_textarea .text_send_button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
 
 }
 
 .chat .chat_conversation .conversation_historial{ 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
 
 }
+
 
 
 
@@ -77,18 +112,35 @@ CONTACT
 */
 
 .contact{
+    display: flex;
+    padding: 5px;
+    margin-bottom: 2px;
+    background-color: rgb(221, 217, 217);
+    padding-bottom: 20px;
 
+}
+.contact:hover{
+    background-color: grey;
 }
 .contact .contact_image{
+    width: 25%;
+    border-radius: 100%;
 
 }
-.contact .contact_status{
+
+.contact .contact_details{
+    width: 75%;
+    margin-left: 10px;
+}
+.contact .contact_details .contact_status{
+    display: flex;
+    justify-content: flex-end;
 
 }
-.contact .contact_name{
+.contact .contact_details .contact_name{
 
 }
-.contact .contact_last_online{
+.contact .contact_details .contact_last_online{
 
 }
 
@@ -98,25 +150,43 @@ BUBBLES
 */
 
 .conversation_bubbles{ 
+    width: 100%;
+    margin-bottom: 5px;
+  
+}
+
+.conversation_bubbles.odd{ 
+    
+    padding-left: 200px;
 
 }
-.conversation_bubbles .odd{ 
-
-}
-.conversation_bubbles .pair{ 
+.conversation_bubbles.pair{ 
+    
+    padding-right: 200px;
 
 }
 
 .conversation_bubbles .conversation_text_box{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 2px;
 
 }
 
-.conversation_bubbles .conversation_text_box .bubble_text_date{ 
-
-}
 .conversation_bubbles .conversation_text_box .bubble_user{ 
+    width: 40%;
 
 }
+.conversation_bubbles .conversation_text_box .bubble_text_date{ 
+    
+
+}
+
 .conversation_bubbles .conversation_text_box .bubble_text{ 
+    width: 65%;
+    margin-top: 10px;
 
 }
