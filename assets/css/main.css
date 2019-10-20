@@ -10,3 +10,113 @@ html, body {
     line-height: 1.4;
     margin: 0;
 }
+
+/* 
+HEADER
+*/
+
+.header{
+
+}
+
+.header .title{
+
+}
+.header .title .title_icon{
+
+}
+.header .title .title_text{
+
+}
+
+.header .menu{
+
+}
+.header .menu .menu_icon{
+    
+}
+.header .menu .menu_title{
+    
+}
+
+/* 
+CHAT
+*/
+
+.chat{
+
+}
+.chat .chat_list{
+    
+}
+
+.chat .chat_list .contacts{
+    
+}
+.chat .chat_conversation{
+
+}
+.chat .chat_conversation .chat_textarea{
+
+}
+.chat .chat_conversation .chat_textarea .text_blank_space{
+
+}
+.chat .chat_conversation .chat_textarea .text_send_button{
+
+}
+
+.chat .chat_conversation .conversation_historial{ 
+
+}
+
+
+
+/*
+CONTACT
+*/
+
+.contact{
+
+}
+.contact .contact_image{
+
+}
+.contact .contact_status{
+
+}
+.contact .contact_name{
+
+}
+.contact .contact_last_online{
+
+}
+
+
+/* 
+BUBBLES
+*/
+
+.conversation_bubbles{ 
+
+}
+.conversation_bubbles .odd{ 
+
+}
+.conversation_bubbles .pair{ 
+
+}
+
+.conversation_bubbles .conversation_text_box{ 
+
+}
+
+.conversation_bubbles .conversation_text_box .bubble_text_date{ 
+
+}
+.conversation_bubbles .conversation_text_box .bubble_user{ 
+
+}
+.conversation_bubbles .conversation_text_box .bubble_text{ 
+
+}
